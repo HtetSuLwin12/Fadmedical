@@ -1,12 +1,12 @@
 name: content-api
 
-# This workflow is triggered on push to the 'content-web' directory of the  main branch of the repository
+# This workflow is triggered on push to the 'content-api' directory of the  main branch of the repository
 on:
    push:
       branches:
          - main
       paths:
-         - 'content-web/**'
+         - 'content-api/**'
 
    # Configure workflow to also support triggering manually
    workflow_dispatch:
